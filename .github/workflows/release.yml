@@ -38,6 +38,9 @@ jobs:
           - os: ubuntu-latest
             target: mips-unknown-linux-gnu
             exe: rathole
+          - os: ivg400
+            target: i686-unknown-linux-gnu
+            exe: rathole
           - os: ubuntu-latest
             target: mips-unknown-linux-musl
             exe: rathole
